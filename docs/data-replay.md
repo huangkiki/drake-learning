@@ -1,6 +1,6 @@
 # E5：日志采样、数据所有权与回放
 
-[Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas) · [多环境与重置](batch-lifecycle.md) · [随机化与学习接口](randomness-learning.md)
+[Sim Learning 学习首页](https://github.com/huangkiki/sim-learning) · [多环境与重置](batch-lifecycle.md) · [随机化与学习接口](randomness-learning.md)
 
 阅读基线：Drake 1.57.0，固定官方提交 `1e1466ba466e7ce8fa9fcca4e086ce1383e5427d`。先修 E3 力观测和 E4 capture/available/consume 时间。本篇完成 A9 的采样、存储、回放与模型差距解释，补充 B6 数据拷贝及外部记录接口。没有生成数据集、运行引擎或新建实验评分器。
 

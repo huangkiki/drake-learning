@@ -1,6 +1,6 @@
 # E6：AutoDiff、symbolic 与物理路径的支持边界
 
-[Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas) · [原生系统扩展](systems-extensions.md) · [特色与综合追踪](engine-boundaries.md)
+[Sim Learning 学习首页](https://github.com/huangkiki/sim-learning) · [原生系统扩展](systems-extensions.md) · [特色与综合追踪](engine-boundaries.md)
 
 固定基线 Drake 1.57.0 / `1e1466ba466e7ce8fa9fcca4e086ce1383e5427d`。先修 E3 接触/SAP 和 E6 原生转换。本篇把“能转换”“能调用”“导数有正确物理含义”分开，属于 B6/B7；没有运行 AD、symbolic 求值、优化或梯度检查。
 

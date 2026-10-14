@@ -1,6 +1,6 @@
 # E3 · 力读回：对象、作用点、表达系和采样
 
-[Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas) · 先读[材料与几何](contact-models.md)、[求解与时间](contact-solvers.md)
+[Sim Learning 学习首页](https://github.com/huangkiki/sim-learning) · 先读[材料与几何](contact-models.md)、[求解与时间](contact-solvers.md)
 
 本篇回答 E2 状态机的 normal_force/slip 输入应从哪里来，什么情况下仍然不能直接使用。固定源码版本仍是 Drake 1.57.0；没有执行读回、接触、传感或 DexLab 评测。
 

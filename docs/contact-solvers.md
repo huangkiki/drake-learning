@@ -1,6 +1,6 @@
 # E3 · 从动力学装配到 SAP 终止
 
-[Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas) · 前篇[几何与材料](contact-models.md) · 后篇[力观测](contact-observation.md)
+[Sim Learning 学习首页](https://github.com/huangkiki/sim-learning) · 前篇[几何与材料](contact-models.md) · 后篇[力观测](contact-observation.md)
 
 这里的“solver”指固定 Drake 1.57.0 源码中的 SAP 算法。`kSap`、`kSimilar`、`kLagged` 是它接收的不同接触近似。本篇从 q/v 的动力学出发，追踪一步离散更新的方程、矩阵和停止条件；所有实现结论对应固定源码，没有运行求解器。
 

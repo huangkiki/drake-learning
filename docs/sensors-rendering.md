@@ -1,6 +1,6 @@
 # E4：相机、图像与渲染的原生数据路径
 
-[Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas) · [课程](curriculum.md) · [采样与延迟](sensor-timing.md) · [惯性与力传感](inertial-force-sensing.md)
+[Sim Learning 学习首页](https://github.com/huangkiki/sim-learning) · [课程](curriculum.md) · [采样与延迟](sensor-timing.md) · [惯性与力传感](inertial-force-sensing.md)
 
 先修 [E1 坐标与对象](modeling-state-time.md)和[状态与时间](state-time.md)。本篇完成 A6 的几何、RGB-D、label、点云及显示部分；固定阅读 Drake v1.57.0 提交 `1e1466ba466e7ce8fa9fcca4e086ce1383e5427d`。全部结论来自原生声明、实现和绑定，未启动渲染或浏览器，也不补充 DexLab 运行资格。
 

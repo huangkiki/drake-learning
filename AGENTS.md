@@ -1,8 +1,8 @@
-# Sim Atlas engineering
+# Sim Learning engineering
 
 - Use autodev for implementation and issue/PR work; one executor at a time. Recover existing work before starting a duplicate.
 - Keep native APIs visible. Use the smallest direct design; no cross-engine wrapper or framework.
-- Current priority: understand all major engine subsystems through versioned official documentation and source. Cover architecture, modeling, state/stepping, control, contact/solvers, sensing/rendering, performance and extensions.
+- Follow [the roadmap](docs/roadmap.md) for current scope and paused stages. Teach engine subsystems through versioned official documentation and source, including architecture, modeling, state/stepping, control, contact/solvers, sensing/rendering, performance and extensions.
 - The user explicitly deferred independent experiments, benchmarks, training and scoring. Reuse DexLab results later. Do not make experimental runs a prerequisite for publishing source-grounded lessons.
 - Use minimal API examples only when they aid understanding; label source review, syntax checks and runtime validation separately. Each chapter needs explanations, native API/source links, pitfalls and reading exercises.
 - Planned chapters must remain visibly planned. A successful import is not a physics qualification. Keep application, source and research completion separate.

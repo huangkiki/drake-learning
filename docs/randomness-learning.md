@@ -1,6 +1,6 @@
 # E5：随机化、MonteCarlo 与原生学习接口
 
-[Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas) · [环境生命周期](batch-lifecycle.md) · [数据与回放](data-replay.md)
+[Sim Learning 学习首页](https://github.com/huangkiki/sim-learning) · [环境生命周期](batch-lifecycle.md) · [数据与回放](data-replay.md)
 
 先修 E1 状态/参数与 E2 驱动/事件接口。本篇基于 Drake 1.57.0 固定官方提交 `1e1466ba466e7ce8fa9fcca4e086ce1383e5427d`，完成 A8 随机化/学习接口和 A9 随机化证据边界。没有安装 gymnasium 或执行 pydrake、采样、仿真与训练。
 

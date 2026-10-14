@@ -1,6 +1,6 @@
 # E4：惯性、编码器与力观测
 
-[Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas) · [相机与渲染](sensors-rendering.md) · [采样与延迟](sensor-timing.md) · [E3 力观测](contact-observation.md)
+[Sim Learning 学习首页](https://github.com/huangkiki/sim-learning) · [相机与渲染](sensors-rendering.md) · [采样与延迟](sensor-timing.md) · [E3 力观测](contact-observation.md)
 
 本篇完成 A6 中理想惯性传感器、编码器及力/触觉观测的边界。仍固定 Drake v1.57.0 源码；不执行 native 模型、动力学或传感器回调。先理解 [E1 空间向量](modeling-state-time.md)和 [E3 sampled/live 输出](contact-observation.md)。
 
