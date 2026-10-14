@@ -4,6 +4,12 @@
 
 应用路线无需先学求解器源码；原理路线建议先理解 A0–A4，并具备线性代数和基础动力学知识。两条路线都完整规划，当前以讲解、源码与最小 API 片段为交付物。
 
+## Solver 配置阅读入口
+
+[读懂 DexLab 的 Drake 配置](solver-reading-guide.md) 面向已有 VLA/WAM/RL 经验的工程师和研究生，以角色表、最小公式、原生字段、诊断与五道练习连接 A4、B1–B4。源码与语法检查见[本次记录](evidence/learning-migration-validation.md)，不新增原生运行资格。共同先修按 [Physics-Based Simulation 主线](https://github.com/huangkiki/sim-learning/blob/main/docs/physics-based-simulation.md) 阅读，IPC 与本引擎接触模型分开核对。
+
+E7 完整安装、运行与全路线审校仍是独立暂停待办；下面保留原课程覆盖，不因新增导读将 A0 或 E7 标为完成。
+
 | 单元 | 主题 | 必须讲清的内容 | 状态 |
 |---|---|---|---|
 | A0 | 安装与对象地图 | 支持环境、包/核心/宿主身份、构建入口、核心对象及生命周期 | 专题待开发 |

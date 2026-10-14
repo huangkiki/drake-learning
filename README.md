@@ -1,12 +1,14 @@
-# Drake Atlas
+# Drake Learning
 
 **理解 Drake 的建模、控制、物理机制与源码实现。**
 
-[English](README.en.md) · [系列首页](https://github.com/huangkiki/sim-atlas) · [入门导读](docs/guide.md) · [完整课程路线](docs/curriculum.md) · [源码地图](docs/source-map.md) · [版本](docs/versions.md) · [开发任务](docs/roadmap.md) · [六仓总看板](https://github.com/users/huangkiki/projects/2)
+[English](README.en.md) · [系列首页](https://github.com/huangkiki/sim-learning) · [入门导读](docs/guide.md) · [读懂 solver 配置](docs/solver-reading-guide.md) · [完整课程路线](docs/curriculum.md) · [源码地图](docs/source-map.md) · [版本](docs/versions.md) · [开发任务](docs/roadmap.md) · [六仓总看板](https://github.com/users/huangkiki/projects/2)
 
-这是 **[Sim Atlas · 仿真图谱](https://github.com/huangkiki/sim-atlas)** 的独立社区学习仓库，重点覆盖 Systems/Diagram/Context、MultibodyPlant、SceneGraph、SAP、控制与优化。
+这是 **[Sim Learning · 仿真学习](https://github.com/huangkiki/sim-learning)** 的独立社区学习仓库，重点覆盖 Systems/Diagram/Context、MultibodyPlant、SceneGraph、SAP、控制与优化。
 
-提供两条完整路线：**A 应用路线**从对象与建模走向控制、机器人、传感器、学习接口与数据；**B 原理与源码路线**解释动力学、接触模型、求解器、积分、观测及扩展。已交付首篇导读、E1「模型、坐标、状态与时间」、E2「驱动、机器人与任务接口」、E3「接触、求解器与力观测」、E4「传感器、渲染与可视化」、E5「批量、学习接口与数据」及 E6「原生扩展、标量与能力边界」专题，完整课程继续开发。
+提供两条完整路线：**A 应用路线**从对象与建模走向控制、机器人、传感器、学习接口与数据；**B 原理与源码路线**解释动力学、接触模型、求解器、积分、观测及扩展。已交付首篇导读、E1「模型、坐标、状态与时间」、E2「驱动、机器人与任务接口」、E3「接触、求解器与力观测」、E4「传感器、渲染与可视化」、E5「批量、学习接口与数据」及 E6「原生扩展、标量与能力边界」专题；当前补充 Learning 系列迁移与 solver 配置导读，E7 完整安装和全路线审校保持暂停。
+
+新增[配置解读](docs/solver-reading-guide.md)：将 SAP、point/hydroelastic、kSap/kSimilar/kLagged 与实验资格分层说明，附原生配置、诊断和练习。面向已有 VLA/WAM/RL 经验的读者；先修见 [Physics-Based Simulation 主线](https://github.com/huangkiki/sim-learning/blob/main/docs/physics-based-simulation.md)。[本次静态验收](docs/evidence/learning-migration-validation.md)。
 
 ## 从这里开始
 
@@ -33,10 +35,10 @@
 | [E5：批量、学习接口与数据](docs/batch-lifecycle.md) | Context/Simulator 隔离、并行/RNG、DrakeGymEnv、记录器触发/副本与回放 | [源码与静态检查](docs/evidence/e5-validation.md)，未运行采样、仿真或训练 |
 | [E6：原生扩展、标量与能力边界](docs/systems-extensions.md) | LeafSystem/TemplateSystem、AD/symbolic、优化/FEM/MPM 边界及完整原生链 | [源码与静态检查](docs/evidence/e6-validation.md)，未运行 AD、优化或柔性体 |
 
-E7 仍按[路线](docs/roadmap.md)审校双路线与证据入口，不以目录存在替代课程完成。
+E7 完整安装、原生运行与双路线审校在[路线](docs/roadmap.md)中保留为独立暂停待办，本次配置导读不启动该阶段。
 
 ## 维护与来源
 
-每章保留原生 API、版本化来源、易错点和阅读练习。各 Atlas 仓库独立，不需要安装其他 Atlas 或 DexLab。教程进度和 DexLab 实验证据覆盖分别记录，不据此给引擎排名。
+每章保留原生 API、版本化来源、易错点和阅读练习。各 Learning 仓库独立，不需要安装其他 Learning 仓库或 DexLab。教程进度和 DexLab 实验证据覆盖分别记录，不据此给引擎排名。
 
 [官方源码基线](https://github.com/RobotLocomotion/drake/tree/1e1466ba466e7ce8fa9fcca4e086ce1383e5427d) · [贡献](CONTRIBUTING.md) · [来源与许可](THIRD_PARTY.md)

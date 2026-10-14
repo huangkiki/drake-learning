@@ -1,6 +1,6 @@
 # E3 · 接触几何、材料与物理模型
 
-[Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas) · 先修 [E1 模型与坐标](modeling-state-time.md)、[E2 控制](control-robotics.md) · 后续 [离散求解](contact-solvers.md)、[力观测](contact-observation.md)
+[Sim Learning 学习首页](https://github.com/huangkiki/sim-learning) · 先修 [E1 模型与坐标](modeling-state-time.md)、[E2 控制](control-robotics.md) · 后续 [离散求解](contact-solvers.md)、[力观测](contact-observation.md)
 
 本专题使用 Drake **1.57.0** 官方固定提交 `1e1466ba466e7ce8fa9fcca4e086ce1383e5427d`，覆盖 A4、B1–B5，并补齐 B0 的动力学装配基础。本文先回答“两个几何为何产生什么接触”，再由下一篇解释如何求解。全部是源码教学与静态核验；没有安装/导入引擎、执行接触、积分或数值求解。[验证记录](evidence/e3-validation.md)
 

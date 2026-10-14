@@ -25,3 +25,5 @@ E4 的[静态证据](evidence/e4-validation.md)覆盖相机、传感器、图像
 E5 的[静态记录](evidence/e5-validation.md)覆盖 Systems/Simulator、MonteCarlo/随机化、官方 DrakeGymEnv、向量日志与 trajectory 回放。Python helper 与 C++ 并行能力分开；固定源码的 handler、初始化顺序和返回所有权差异不等于已完成运行复现或上游修复。未 import、采样、模拟、训练或性能测试。
 
 E6 的[静态记录](evidence/e6-validation.md)覆盖标量转换、Python 原生扩展、几何/接触方法支持、优化前置条件、FEM 和内部 MPM 的实际归属。源码中的模板或 converter 不作为端到端可微证据；本轮未执行 AD、symbolic、优化或任何柔性/多物理运行。
+
+Learning 迁移与 [solver 配置导读](solver-reading-guide.md) 使用同一 1.57.0 源码 pin；[本次记录](evidence/learning-migration-validation.md)仅补充静态验收。引用 DexLab `7e4a0774efb4f8b332e866e1495e032b4969c8aa` 的斜面批次时，保留已运行、失败、未运行配置及 coverage-v1 未资格的区别。E7 继续暂停。

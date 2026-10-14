@@ -1,10 +1,12 @@
-# Drake Atlas
+# Drake Learning
 
 Understand Drake through native APIs, physics concepts and versioned source code.
 
-[中文](README.md) · [Series home](https://github.com/huangkiki/sim-atlas) · [Introductory guide](docs/guide.md) · [Curriculum](docs/curriculum.md) · [Source map](docs/source-map.md) · [Versions](docs/versions.md) · [Roadmap](docs/roadmap.md) · [Project tracker](https://github.com/users/huangkiki/projects/2)
+[中文](README.md) · [Series home](https://github.com/huangkiki/sim-learning) · [Introductory guide](docs/guide.md) · [Solver configuration guide](docs/solver-reading-guide.md) · [Curriculum](docs/curriculum.md) · [Source map](docs/source-map.md) · [Versions](docs/versions.md) · [Roadmap](docs/roadmap.md) · [Project tracker](https://github.com/users/huangkiki/projects/2)
 
-Part of **[Sim Atlas](https://github.com/huangkiki/sim-atlas)**, an independent community learning series with two complete planned tracks: applications (modeling, control, robotics, sensing and data) and principles/source (dynamics, contact, solvers, integration and extensions).
+Part of **[Sim Learning](https://github.com/huangkiki/sim-learning)**, an independent community learning series with two complete planned tracks: applications (modeling, control, robotics, sensing and data) and principles/source (dynamics, contact, solvers, integration and extensions).
+
+New: [Read the DexLab Drake configuration](docs/solver-reading-guide.md) distinguishes the SAP solver, contact models, discrete approximations and qualification status, with native configuration, diagnostic questions and answered exercises. Start with the shared [Physics-Based Simulation reading path](https://github.com/huangkiki/sim-learning/blob/main/docs/physics-based-simulation.md). [Static validation](docs/evidence/learning-migration-validation.md). E7 installation, native execution and full-route review remain separately paused.
 
 Chinese lessons currently available:
 
@@ -19,7 +21,7 @@ E3 separates contact representation, discrete approximation, solver and integrat
 
 E4 completes A6 at the source-study level, covering image types, frames and units, renderer/QueryObject ownership, headless versus Meshcat, explicit capture/output timing, and ideal inertial sensing. It documents the pinned RgbdSensorDiscrete image_time export discrepancy and sampled-plant acceleration timing instead of relying on API names alone.
 
-E5 completes A8/A9 and the Systems-level B6 execution/extension contract. It distinguishes C++ parallel MonteCarlo from the serial Python binding, RNG snapshots from physics checkpoints, and logging triggers from sensor timestamps. It documents fixed DrakeGymEnv handler/reset/render discrepancies and the actual vector-copy versus abstract-reference Eval bindings. E6 now completes the specific extension and integrated source topics; E7 remains planned.
+E5 completes A8/A9 and the Systems-level B6 execution/extension contract. It distinguishes C++ parallel MonteCarlo from the serial Python binding, RNG snapshots from physics checkpoints, and logging triggers from sensor timestamps. It documents fixed DrakeGymEnv handler/reset/render discrepancies and the actual vector-copy versus abstract-reference Eval bindings. E6 now completes the specific extension and integrated source topics; E7 remains planned and paused.
 
 E6 distinguishes conversion registration from method support and meaningful derivatives. It traces empty-only deformable-model conversion, geometry query support, current SAP implicit derivatives, optimization prerequisites, FEM state/integration, private MPM targets and native force models. The pinned damping setters check the old member; downstream material construction checks the actual coefficient. No runtime reproduction or upstream fix is claimed.
 

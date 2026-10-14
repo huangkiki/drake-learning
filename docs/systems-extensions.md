@@ -1,6 +1,6 @@
 # E6：原生 System 扩展、依赖与标量转换
 
-[Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas) · [可微与标量边界](scalar-capabilities.md) · [特色能力与综合源码链](engine-boundaries.md)
+[Sim Learning 学习首页](https://github.com/huangkiki/sim-learning) · [可微与标量边界](scalar-capabilities.md) · [特色能力与综合源码链](engine-boundaries.md)
 
 先修 E1 的 Context、E2 的事件状态机和 E5 的环境隔离。固定阅读版本 Drake 1.57.0，commit `1e1466ba466e7ce8fa9fcca4e086ce1383e5427d`。本篇补齐 B6 原生扩展契约，解释一个用户系统如何正确接入缓存、事件、Diagram 与标量转换。代码均为未执行阅读材料；没有 import、模型构建、仿真或 AD 运行。
 

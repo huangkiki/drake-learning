@@ -1,6 +1,6 @@
 # E4：传感器的采样、延迟与 Context 所有权
 
-[Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas) · [相机与渲染](sensors-rendering.md) · [惯性与力传感](inertial-force-sensing.md)
+[Sim Learning 学习首页](https://github.com/huangkiki/sim-learning) · [相机与渲染](sensors-rendering.md) · [惯性与力传感](inertial-force-sensing.md)
 
 本篇使用与相机篇相同的 Drake v1.57.0 固定源码；先修 [E1 事件与时间](state-time.md)。目标是能够回答“这份图像观察了哪个场景时刻，何时可供控制器使用”，而不是只知道调用 Eval。
 

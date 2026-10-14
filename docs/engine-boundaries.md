@@ -1,6 +1,6 @@
 # E6：优化、柔性体与多物理边界的综合源码地图
 
-[Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas) · [原生扩展](systems-extensions.md) · [标量能力](scalar-capabilities.md)
+[Sim Learning 学习首页](https://github.com/huangkiki/sim-learning) · [原生扩展](systems-extensions.md) · [标量能力](scalar-capabilities.md)
 
 本篇固定在 Drake 1.57.0 / `1e1466ba466e7ce8fa9fcca4e086ce1383e5427d`，承接 E1–E5，完成 B7 从原生对象到具体能力与失败点的综合追踪。下文给出公开原生模块、内部实现与外部依赖的归属；不以目录、模板参数或论文名字充当运行验收。
 
